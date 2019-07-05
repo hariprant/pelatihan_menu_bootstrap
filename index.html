@@ -1,0 +1,91 @@
+<html>
+    <head>
+        <title>Pertemuan 3 - Pelatihan Bootstrap</title>
+        <link rel="stylesheet" href="assets/bootstrap.css">
+        <script src="assets/jquery-3.3.1.slim.min.js"></script>
+        <script src="assets/bootstrap.js"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <!-- <a href="/" class="navbar-brand">Latihan</a> -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="nav-item">
+                        <img src="assets/logo.png" class="image" width="100px" height="43px" style="margin:1px; padding:0px">
+                    </li>
+                    <li class="nav-item">
+                        <a href="/" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="gallery.html" class="nav-link">Gallery</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Profil</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a href="profil/visi.html" class="dropdown-item">Visi dan Misi</a>
+                     -       <a href="profil/tempat.html" class="dropdown-item">Tempat Kami</a>
+                            <a href="profil/kontak.html" class="dropdown-item">Kontak Kami</a>
+                        </div>
+                    </li>
+                    <form action="" class="form-inline my-2 my-lg-0">
+                        <input type="search" class="form-control mr-sm-2" placeholder="Pencarian" aria-label="Pencarian">
+                        <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
+                    </form>
+                </ul>
+            </div>
+        </nav>
+        <div class="container">
+            <form action="" id="submitBerkas" style="padding-top: 10px">
+                <div class="form-group">
+                    <label>Nama Lengkap</label>
+                    <input type="text" name="nama" class="form-control" placeholder="Tuliskan nama lengkap">
+                </div>
+                <div class="form-group">
+                    <label>Nomor Telepon</label>
+                    <input type="number" name="telp" class="form-control" placeholder="Tuliskan nomor telp">
+                </div>
+                <div class="form-group">
+                    <label>Email</label>
+                    <input type="email" name="email" class="form-control" placeholder="Tuliskan alamat email">
+                </div>
+                <div class="form-group">
+                    <label>Alamat Legkap</label>
+                    <input type="textarea" name="alamat" class="form-control" rows="5" placeholder="Tuliskan alamat email">
+                </div>
+                <button type="submit" class="btn btn-primary">Simpan</button>
+            </form>
+            <form action="" class="form-inline" id="formSatuBaris" style="padding-top: 30px">
+                <div class="form-group">
+                    <label class="ml-3">Email</label>
+                    <input type="email" class="form-control ml-3" name="email" placeholder="Email">
+                </div>
+                <div class="form-group">
+                    <label class="ml-3">Password</label>
+                    <input type="password" class="form-control ml-3" name="password" placeholder="Password">
+                </div>
+                <button type="submit" class="btn badge-primary ml-3">Login</button>
+            </form>
+            <form action="" class="form-horizontal pt-3" id=formHorizontal>
+                <div class="form-group row">
+                    <label class="control-label col-sm-2">Nama Lengkap</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" placeholder="Nama">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="control-label col-sm-2">Email</label>
+                    <div class="col-sm-10">
+                        <input type="email" class="form-control" placeholder="Nama">
+                    </div>
+                </div>
+                <button type="submit" class="btn badge-primary ml-2">Login</button>
+            </form>
+        </div>
+    </body>
+</html>
+<?php $header?>
+
+<?php $footer?>
